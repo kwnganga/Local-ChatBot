@@ -41,7 +41,7 @@ from llama_cpp import Llama
 # Set CHATBOT_MODEL_PATH in your environment to avoid editing this file.
 MODEL_PATH = os.environ.get(
     "CHATBOT_MODEL_PATH",
-    r"C:/Users/kwnga/OneDrive/Desktop/ChatBot/llama.cpp/models/llama/Meta-Llama-3.1-8B-Instruct-Q5_K_M.gguf"
+    r"C:/ChatBot/llama.cpp/models/llama/Meta-Llama-3.1-8B-Instruct-Q5_K_M.gguf" #This should be the file path where the Meta-Llama model is stored
 )
 N_CTX = 12288
 
